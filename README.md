@@ -3,7 +3,10 @@ How to retrieve offline Refresh Token for your application
 
 
 ### Enable Gmail RESTFull API
-Go to menu : `APIs & Services` >> `Library`
+Go to menu : `APIs & Services` >> `Library` search Gmail and enable Gmail API
+<p align="center">
+  <img src="https://github.com/vhuynen/GCP-Retreive-Offline-Refresh-Token/blob/master/screenshot/Enable%20Gmail%20RestFull%20API.JPG" width="50%">
+</p>
 
 ### Create credentials to access your enabled APIs
 Go to menu : `APIs & Services` >> `Credentials`
@@ -20,4 +23,6 @@ In breadcrumb 2 `SCOPES` click on the button `SAVE ANS CONTINUE`
 In breadcrumb 3 `Optional info` click on the button `SAVE ANS CONTINUE`
 In breadcrumb 4 `Summary` click on the button `BACK TO DASHBOARD`
 
-At this step you are enabled  create you application with a CONSENT SCREEN  
+At this step you are activated Gmail API on your Google Cloud Platform and setting a consent screen for that clients authorize your application to use their credentials on behalf of themselves.
+
+
