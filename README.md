@@ -1,7 +1,6 @@
 # Google Cloud Platform - How to retrieve Refresh-Token
-How to retrieve on offline Refresh Token for your application.
-In this sample we authorize the application to send an email on behalf of the user.
-
+How to retrieve on offline Refresh Token for your application ?
+In this article we authorize the application to send an email on behalf of the user. For other scopes it's the same procedure.
 
 ### Enable Gmail RESTfull API
 Go to menu : `APIs & Services` >> `Library` search Gmail and enable Gmail API
