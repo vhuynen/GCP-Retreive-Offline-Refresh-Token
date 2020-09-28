@@ -19,10 +19,11 @@ Choose radio button `External` and then click `CREATE` button
 
 At this step fill all required fields from App Information form :
 
-- Step 2 `SCOPES` click on the button `SAVE ANS CONTINUE`
+- Step 2 `SCOPES` 
   - Click on `ADD OR REMOVE SCOPES`
   - Fill gmail term in the filter and choose the scope `.../auth/gmail.send`
   - Click on the `UPDATE` button
+  - Finally, click on the button `SAVE ANS CONTINUE`
 
 - Step 3 `Optional info` click on the button `SAVE ANS CONTINUE`
 
