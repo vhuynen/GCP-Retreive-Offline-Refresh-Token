@@ -26,7 +26,8 @@ At this step fill all required fields from App Information form :
 <p align="center">
 <img src="https://github.com/vhuynen/GCP-Retreive-Offline-Refresh-Token/blob/master/screenshot/Scope%20Gmail%20Send.JPG" width="50%">
 </p>  
-  - Click on the `UPDATE` button
+
+- Click on the `UPDATE` button
   - Finally, click on the button `SAVE ANS CONTINUE`
 - Step 3 `Optional info` click on the button `SAVE ANS CONTINUE`
 - Step 4 `Summary` click on the button `BACK TO DASHBOARD`
