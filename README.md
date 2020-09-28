@@ -24,7 +24,7 @@ At this step fill all required fields from App Information form :
   - Click on `ADD OR REMOVE SCOPES`
   - Fill gmail term in the filter and choose the scope `.../auth/gmail.send`
 <p align="center">
-<img src="https://github.com/vhuynen/GCP-Retreive-Offline-Refresh-Token/blob/master/screenshot/Scope%20Gmail%20Send.JPG" width="100%">
+<img src="https://github.com/vhuynen/GCP-Retreive-Offline-Refresh-Token/blob/master/screenshot/Scope%20Gmail%20Send.JPG" width="50%">
 </p>  
   - Click on the `UPDATE` button
   - Finally, click on the button `SAVE ANS CONTINUE`
