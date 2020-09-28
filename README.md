@@ -7,7 +7,8 @@ Go to menu : `APIs & Services` >> `Library`
 
 ### Create credentials to access your enabled APIs
 Go to menu : `APIs & Services` >> `Credentials`
-Then click on the button `+ CREATE CREDENTIALS` and go to sub-menu `OAuth client ID`
+
+Then click on the button : `+ CREATE CREDENTIALS` and go to sub-menu `OAuth client ID`
 
 Click on `CONFIGURE CONSENT SCREEN`
 
