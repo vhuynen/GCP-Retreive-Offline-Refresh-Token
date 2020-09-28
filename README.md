@@ -5,7 +5,7 @@ How to retrieve offline Refresh Token for your application
 ### Enable Gmail RESTFull API
 Go to menu : `APIs & Services` >> `Library` search Gmail and enable Gmail API
 <p align="center">
-  <img src="https://github.com/vhuynen/GCP-Retreive-Offline-Refresh-Token/blob/master/screenshot/Enable%20Gmail%20RestFull%20API.JPG" width="50%">
+  <img src="https://github.com/vhuynen/GCP-Retreive-Offline-Refresh-Token/blob/master/screenshot/Enable%20Gmail%20RestFull%20API.JPG" width="25%">
 </p>
 
 ### Create credentials to access your enabled APIs
