@@ -19,11 +19,11 @@ Choose radio button `External` and then click `CREATE` button
 
 At this step fill all required fields from App Information form :
 
-In breadcrumb 2 `SCOPES` click on the button `SAVE ANS CONTINUE`
+In step 2 `SCOPES` click on the button `SAVE ANS CONTINUE`
 
-In breadcrumb 3 `Optional info` click on the button `SAVE ANS CONTINUE`
+In step 3 `Optional info` click on the button `SAVE ANS CONTINUE`
 
-In breadcrumb 4 `Summary` click on the button `BACK TO DASHBOARD`
+In step 4 `Summary` click on the button `BACK TO DASHBOARD`
 
 At this step you are activated Gmail API on your Google Cloud Platform and setting a consent screen for that clients authorize your application to use their credentials on behalf of themselves.
 
