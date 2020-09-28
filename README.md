@@ -1,5 +1,6 @@
 # Google Cloud Platform - How to retrieve Refresh-Token
-How to retrieve offline Refresh Token for your application
+How to retrieve on offline Refresh Token for your application.
+In this sample we authorize the application to send an email on behalf of the user.
 
 
 ### Enable Gmail RESTfull API
@@ -24,9 +25,7 @@ At this step fill all required fields from App Information form :
   - Fill gmail term in the filter and choose the scope `.../auth/gmail.send`
   - Click on the `UPDATE` button
   - Finally, click on the button `SAVE ANS CONTINUE`
-
 - Step 3 `Optional info` click on the button `SAVE ANS CONTINUE`
-
 - Step 4 `Summary` click on the button `BACK TO DASHBOARD`
 
 At this step you are activated Gmail API on your Google Cloud Platform and setting a **consent screen** for that clients authorize your application to use their credentials on behalf of themselves.
