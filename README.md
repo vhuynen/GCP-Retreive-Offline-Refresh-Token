@@ -87,7 +87,7 @@ Now, we are going to [OAuth Playground][playground] of Google to retrieve a Refr
 </p>
 
 - Step 2, press on the button `Exchange authorization code for tokens'
-- Then, you retrieve an Access Token and a the golden Refresh Token !
+- Then, you retrieve an Access Token and the golden Refresh Token !
 
 ```
   HTTP/1.1 200 OK
