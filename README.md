@@ -86,7 +86,7 @@ Now, we are going to [OAuth Playground][playground] of Google to retrieve a Refr
 <img src="https://github.com/vhuynen/GCP-Retreive-Offline-Refresh-Token/blob/master/screenshot/Consent%20Screen.JPG" width="50%">
 </p>
 
-- Step 2, press on the button `Exchange authorization code for tokens'
+- Step 2, press on the button `Exchange authorization code for tokens`
 - Then, you retrieve an Access Token and the golden Refresh Token !
 
 ```
