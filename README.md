@@ -40,4 +40,4 @@ Now that your consent screen has been configured for your application, you can r
 
 Then click on the button : `+ CREATE CREDENTIALS` and go to sub-menu `OAuth client ID`
 
-[GCP] : https://console.cloud.google.com/
+[GCP] : <https://console.cloud.google.com/>
