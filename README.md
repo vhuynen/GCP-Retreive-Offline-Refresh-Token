@@ -3,7 +3,7 @@ How to retrieve on offline Refresh Token for your application ?
 In this article we authorize the application to send an email on behalf of the user. For other scopes it's the same procedure.
 
 ### Google Cloud Platform (GCP)
-First connect you on the [GCP] with you Google account
+First login you on the [Google Cloud Platform Console] [GCP] with you Google account
 
 
 ### Enable Gmail RESTfull API
