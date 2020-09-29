@@ -32,8 +32,9 @@ Choose radio button `External` and then click `CREATE` button
 - Step 2 `SCOPES` 
   - Click on `ADD OR REMOVE SCOPES`
   - Fill gmail term in the filter and choose the scope `.../auth/gmail.send`
-  > Keep in mind that we want to send an email on behalf of user. The scope is : https://www.googleapis.com/auth/gmail.send
-  > All scopes for Gmail API are here [scope]
+  > Keep in mind that we want to send an email on behalf of user. The scope we need to access is : https://www.googleapis.com/auth/gmail.send
+  
+  > All scopes for Gmail API are here [scopes]
   - Click on the `UPDATE` button
   - Finally, click on the button `SAVE ANS CONTINUE`
 <p align="center">
