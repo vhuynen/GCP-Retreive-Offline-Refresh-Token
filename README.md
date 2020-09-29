@@ -74,7 +74,7 @@ Now, we are going to [OAuth Playground][playground] of Google to retrieve a Refr
 - On the OAuth 2.0 parameter on the right of the screen fill both fields `OAuth Client ID` and `OAuth Client secret` with the Client ID and the Client Secret of your application defined on GCP.
 
 <p align="center">
-<img src="https://github.com/vhuynen/GCP-Retreive-Offline-Refresh-Token/blob/master/screenshot/OAuth%20Playground.JPG" width="75%">
+<img src="https://github.com/vhuynen/GCP-Retreive-Offline-Refresh-Token/blob/master/screenshot/OAuth%20Playground.JPG" width="50%">
 </p>
 
 - Press on the `Authorize APIs` button of the Step 1
