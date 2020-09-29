@@ -50,10 +50,31 @@ Now that your consent screen has been configured for your application, you can r
 
 Then click on the button : `+ CREATE CREDENTIALS` and go to sub-menu `OAuth client ID`
 
-On the screen `Create OAuth client ID` fill the choose list `Application type` with the value `Web application`
+On the screen `Create OAuth client ID` fill the `Name` and fill the choose list `Application type` with the value `Web application`
 
-Click on button `+ ADD URI` and at the section `Authorized redirect URIs` adding the value `https://developers.google.com/oauthplayground`
+Click on button `+ ADD URI` and at the section `Authorized redirect URIs` and add the value `https://developers.google.com/oauthplayground`
+Indeed, we will use the OAuth Playground of Google to retrieve our famous Refresh Token it's the reason we authorize the consent screen to redirect through Playground.
+
+Finally, `SAVE` the configuration.
+
+On the `OAuth 2.0 Client IDs`, click on the download button in order to save your OAuth Client ID en OAuth Client Secret of your application.
+Keep this warm, you will need this on the next section.
+<p align="center">
+<img src="https://github.com/vhuynen/GCP-Retreive-Offline-Refresh-Token/blob/master/screenshot/OAuth%20Client%20ID%20Client%20Secret.JPG" width="50%">
+</p>
+
+### Retrieve your OAuth Client ID and OAuth Client Secret of your application
+Go to 
+
+Right now, we have finished to set your application on GCP. Let's go to retrieve Access Token from Refresh Token...
+
+### Retrieve a Refresh Token for offline call API
+Now, we are going to [OAuth Playground][playground] of Google to retrieve a Refresh Token.
+- Step 1 : Select & authorize APIs
+  - Select the scope : https://www.googleapis.com/auth/gmail.send
+- On the OAuth 2.0 parameter on the left of the screen fill the fields `OAuth Client ID` and `OAuth Client secret` with the Clien ID et Client Secret from your application defined on GCP.
 
  
  [df1]: <https://console.cloud.google.com/>
  [scopes]: <https://developers.google.com/gmail/api/auth/scopes>
+ [playground]: <https://developers.google.com/oauthplayground>
