@@ -45,11 +45,14 @@ Choose radio button `External` and then click `CREATE` button
 - Step 4 `Summary` click on the button `BACK TO DASHBOARD`
 
 At this step, you have activated Gmail API on your Google Cloud Platform, created an application and defined a **consent screen** for that clients authorize your application to use their credentials on behalf of themselves.
+
 Now that your consent screen has been configured for your application, you can resume you settings by going to menu : `APIs & Services` >> `Credentials`
 
 Then click on the button : `+ CREATE CREDENTIALS` and go to sub-menu `OAuth client ID`
+
 On the screen `Create OAuth client ID` fill the choose list `Application type` with the value `Web application`
-Click on button `+ ADD URI` on the section `Authorized redirect URIs` and add the value `https://developers.google.com/oauthplayground`
+
+Click on button `+ ADD URI` and at the section `Authorized redirect URIs` adding the value `https://developers.google.com/oauthplayground`
 
  
  [df1]: <https://console.cloud.google.com/>
