@@ -88,8 +88,8 @@ Now, we are going to [OAuth Playground][playground] of Google to retrieve a Refr
 
 - Step 2, press on the button `Exchange authorization code for tokens'
 - Then, you retrieve an Access Token and a the golden Refresh Token !
-<code>
-  
+
+```
   HTTP/1.1 200 OK
 Content-length: 425
 X-xss-protection: 0
@@ -110,7 +110,7 @@ Content-type: application/json; charset=utf-8
   "expires_in": 3599, 
   "refresh_token": "1//04AQ61pvoFSOBCgYIARAAGAQSNwF-L9Ir8jMd6pSAXnE0s2x7Hu4wVElgo_hB_s7W_nO61zEiDuZGtSQuADJamaZOO4robDvjsIo"
 }
-  </code>
+``` 
 
  
  
