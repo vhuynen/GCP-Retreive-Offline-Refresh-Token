@@ -77,17 +77,41 @@ Now, we are going to [OAuth Playground][playground] of Google to retrieve a Refr
 <img src="https://github.com/vhuynen/GCP-Retreive-Offline-Refresh-Token/blob/master/screenshot/OAuth%20Playground.JPG" width="50%">
 </p>
 
- - Press on the `Authorize APIs` button of the Step 1
- - You are redirected on the login screen of Google
- - Choose the Google account you want to use for this application
- - The IdP Google redirect the user on the consent screen you are defined on GCP
- - The user accept to delegate the application to use his credentials to send on email on behalf of him
+- Press on the `Authorize APIs` button of the Step 1
+- You are redirected on the login screen of Google
+- Choose the Google account you want to use for this application
+- The IdP Google redirect the user on the consent screen you are defined on GCP
+- The user accept to delegate the application to use his credentials to send on email on behalf of him
 <p align="center">
 <img src="https://github.com/vhuynen/GCP-Retreive-Offline-Refresh-Token/blob/master/screenshot/Consent%20Screen.JPG" width="50%">
 </p>
 
 - Step 2, press on the button `Exchange authorization code for tokens'
- - Then, you retreive on Access Token and on Refresk Token
+- Then, you retrieve an Access Token and a the golden Refresh Token !
+<code>
+  
+  HTTP/1.1 200 OK
+Content-length: 425
+X-xss-protection: 0
+X-content-type-options: nosniff
+Transfer-encoding: chunked
+Vary: Origin, X-Origin, Referer
+Server: scaffolding on HTTPServer2
+-content-encoding: gzip
+Cache-control: private
+Date: Tue, 29 Sep 2020 16:45:38 GMT
+X-frame-options: SAMEORIGIN
+Alt-svc: h3-Q050=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-27=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-T050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+Content-type: application/json; charset=utf-8
+{
+  "access_token": "ya29.a0AfH6SMBkylMobb2awutHFaxdcZesmvNvU4zGRdVfTABDwVMbzX7ldMvD53CUZHTY-ii9-LdBzx-3-zy0Qj9TQGtStJuhGzqifUb_iaEHh655cAjM0R4cMo6rr_MWbI1zUnlmiw5PrA76u3uxTZjN78DeWLU6sj1Fuyo", 
+  "scope": "https://www.googleapis.com/auth/gmail.send", 
+  "token_type": "Bearer", 
+  "expires_in": 3599, 
+  "refresh_token": "1//04AQ61pvoFSOBCgYIARAAGAQSNwF-L9Ir8jMd6pSAXnE0s2x7Hu4wVElgo_hB_s7W_nO61zEiDuZGtSQuADJamaZOO4robDvjsIo"
+}
+  <code>
+
  
  
  
