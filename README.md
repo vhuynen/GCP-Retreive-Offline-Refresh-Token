@@ -3,7 +3,7 @@ How to retrieve on offline Refresh Token for your application ?
 In this article we authorize the application to send an email on behalf of the user. For other scopes it's the same procedure.
 
 ### Google Cloud Platform (GCP)
-First login you on the [Google Cloud Platform Console] [GCP] with you Google account
+First login you on the [Google Cloud Platform Console][df1] with you Google account
 
 
 ### Enable Gmail RESTfull API
@@ -39,5 +39,5 @@ At this step you are activated Gmail API on your Google Cloud Platform and setti
 Now that your consent screen has been configured for your application, you can resume you settings by going to menu : `APIs & Services` >> `Credentials`
 
 Then click on the button : `+ CREATE CREDENTIALS` and go to sub-menu `OAuth client ID`
-
-[GCP] : <https://console.cloud.google.com/>
+ 
+ [df1]: <https://console.cloud.google.com/>
