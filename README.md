@@ -71,7 +71,13 @@ Right now, we have finished to set your application on GCP. Let's go to retrieve
 Now, we are going to [OAuth Playground][playground] of Google to retrieve a Refresh Token.
 - Step 1 : Select & authorize APIs
   - Select the scope : https://www.googleapis.com/auth/gmail.send
-- On the OAuth 2.0 parameter on the left of the screen fill the fields `OAuth Client ID` and `OAuth Client secret` with the Clien ID et Client Secret from your application defined on GCP.
+- On the OAuth 2.0 parameter on the right of the screen fill the fields `OAuth Client ID` and `OAuth Client secret` with the Client ID et Client Secret of your application defined on GCP.
+
+<p align="center">
+<img src="https://github.com/vhuynen/GCP-Retreive-Offline-Refresh-Token/blob/master/screenshot/OAuth%20Playground.JPG" width="50%">
+</p>
+
+
 
  
  [df1]: <https://console.cloud.google.com/>
