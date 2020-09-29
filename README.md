@@ -27,7 +27,7 @@ Click on `CONFIGURE CONSENT SCREEN` button
 
 Choose radio button `External` and then click `CREATE` button
 
-At this step fill all required fields from App Information form :
+- Step 1, fill all required fields from App Information form :
 
 - Step 2 `SCOPES` 
   - Click on `ADD OR REMOVE SCOPES`
