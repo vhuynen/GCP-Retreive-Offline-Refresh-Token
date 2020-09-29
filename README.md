@@ -57,14 +57,13 @@ Indeed, we will use the OAuth Playground of Google to retrieve our famous Refres
 
 Finally, `SAVE` the configuration.
 
+### Retrieve your OAuth Client ID and OAuth Client Secret of your application
+
 On the `OAuth 2.0 Client IDs`, click on the download button in order to save your OAuth Client ID en OAuth Client Secret of your application.
 Keep this warm, you will need this on the next section.
 <p align="center">
 <img src="https://github.com/vhuynen/GCP-Retreive-Offline-Refresh-Token/blob/master/screenshot/OAuth%20Client%20ID%20Client%20Secret.JPG" width="50%">
 </p>
-
-### Retrieve your OAuth Client ID and OAuth Client Secret of your application
-Go to 
 
 Right now, we have finished to set your application on GCP. Let's go to retrieve Access Token from Refresh Token...
 
