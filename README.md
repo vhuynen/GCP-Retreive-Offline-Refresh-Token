@@ -6,12 +6,13 @@ For other scopes it's the same procedure.
 ### Google Cloud Platform (GCP)
 First login you on the [Google Cloud Platform Console][df1] with you Google account.
 
-Create a new Project 'My Project' 
+### Create a new Project
+Create a project for your application as it :
 <p align="center">
   <img src="https://github.com/vhuynen/GCP-Retreive-Offline-Refresh-Token/blob/master/screenshot/Create%20Project.JPG" width="50%">
 </p>
 
-### Enable Gmail RESTfull API
+### Enable Gmail RESTfull API for your application
 Go to menu : `APIs & Services` >> `Library` search Gmail and enable Gmail API
 <p align="center">
   <img src="https://github.com/vhuynen/GCP-Retreive-Offline-Refresh-Token/blob/master/screenshot/Enable%20Gmail%20RestFull%20API.JPG" width="50%">
