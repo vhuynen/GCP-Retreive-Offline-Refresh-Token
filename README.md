@@ -141,8 +141,7 @@ the token server returns a JSON object that contains a new access token for the 
 
 For more details about the REST **send** Gmail API : [users.messages.send][gmailsendapi]  
 
->> URI : https://www.googleapis.com/upload/gmail/v1/users/:userId/messages/send?uploadType=media
->>:userId is the user's email address.
+> URI : https://www.googleapis.com/upload/gmail/v1/users/:userId/messages/send?uploadType=media :**userId** is the user's email address.
 
 Body request :
 ```
