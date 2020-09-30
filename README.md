@@ -142,7 +142,7 @@ the token server returns a JSON object that contains a new access token for the 
 For more details about the REST **send** Gmail API : [users.messages.send][gmailsendapi]  
 
 > https://www.googleapis.com/upload/gmail/v1/users/:userId/messages/send?uploadType=media
-> https://www.googleapis.com/upload/gmail/v1/users/vincent.huynen@gmail.com/messages/send?uploadType=media
+> https://www.googleapis.com/upload/gmail/v1/users/**vincent.huynen@gmail.com**/messages/send?uploadType=media
 
 Body request :
 ```
@@ -153,12 +153,11 @@ Authorization: Bearer ya29.a0AfH6SMBkHYSGMpv4rfN9ICB9mIpvnXqd68r3dkMCTIrhvuUVupn
 
 from:vincent.huynen@gmail.com
 to:vincent.huynen@gmail.com
-to:vincent.huynen@covea.fr
 subject:Have a Nice Day !
 
 My body content
 ```
-Body success response HTTP 1.0 200 OK:
+Success response from Gmail API : 200 OK:
 ```
 {
     "id": "174de384530491b0",
@@ -171,6 +170,10 @@ Body success response HTTP 1.0 200 OK:
 }
 
 ```
+Now, check your Gmail Inbox, you have got mail !
+> You can send until 100 mails for free per day with this API.
+> It's usually enough for yours personal projects.
+
 
  [oauth]: <https://developers.google.com/identity/protocols/oauth2>
  [df1]: <https://console.cloud.google.com/>
