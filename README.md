@@ -71,7 +71,7 @@ Right now, we have finished to set your application on GCP. Let's go to retrieve
 Now, we are going to [OAuth Playground][playground] of Google to retrieve a Refresh Token.
 - Step 1 : Select & authorize APIs
   - Select the scope : https://www.googleapis.com/auth/gmail.send
-- On the OAuth 2.0 parameter on the right of the screen fill both fields `OAuth Client ID` and `OAuth Client secret` with the Client ID and the Client Secret of your application defined on GCP.
+- Click on the `OAuth 2.0 configuration` button on the right of the screen and fill both fields `OAuth Client ID` and `OAuth Client secret` with the Client ID and the Client Secret of your application defined on GCP.
 
 <p align="center">
 <img src="https://github.com/vhuynen/GCP-Retreive-Offline-Refresh-Token/blob/master/screenshot/OAuth%20Playground.JPG" width="50%">
@@ -87,10 +87,10 @@ Now, we are going to [OAuth Playground][playground] of Google to retrieve a Refr
 </p>
 
 - Step 2, press on the button `Exchange authorization code for tokens`
-- Then, you retrieve an Access Token and the golden Refresh Token !
+- Then, you retrieve an Access Token and the Refresh Token !
 
 ```
-  HTTP/1.1 200 OK
+HTTP/1.1 200 OK
 Content-length: 425
 X-xss-protection: 0
 X-content-type-options: nosniff
@@ -111,6 +111,10 @@ Content-type: application/json; charset=utf-8
   "refresh_token": "1//04AQ61pvoFSOBCgYIARAAGAQSNwF-L9Ir8jMd6pSAXnE0s2x7Hu4wVElgo_hB_s7W_nO61zEiDuZGtSQuADJamaZOO4robDvjsIo"
 }
 ``` 
+### How to use your Refresh Token to retreive on Access Token
+In this section, we will use [Postman] to first retrieve an Access Token from the Refresh Token and second use the Access Token in order to send an email thanks to the Gmail API.
+
+
 
  
  
@@ -118,3 +122,4 @@ Content-type: application/json; charset=utf-8
  [df1]: <https://console.cloud.google.com/>
  [scopes]: <https://developers.google.com/gmail/api/auth/scopes>
  [playground]: <https://developers.google.com/oauthplayground>
+ [postman] <https://www.postman.com/>
