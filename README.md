@@ -112,7 +112,7 @@ Content-type: application/json; charset=utf-8
 }
 ``` 
 ### How to use your Refresh Token to retreive on Access Token
-In this section, we will use [Postman] to first retrieve an Access Token from the Refresh Token and second use the Access Token in order to send an email thanks to the Gmail API.
+In this section, we will use [Postman][postman] to first retrieve an Access Token from the Refresh Token and second use the Access Token in order to send an email thanks to the Gmail API.
 
 
 
