@@ -172,7 +172,7 @@ Success response from Gmail API : 200 OK:
 
 ```
 Now, check your Gmail Inbox, you have got mail !
-> You can send until 100 mails for free per day with this API.
+> You can send until 100 mails for free per day with this API
 > It's usually enough for yours personal projects.
 
 <p align="center">
