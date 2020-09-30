@@ -3,6 +3,8 @@ How to retrieve on offline Refresh Token for your application ?
 In this article we authorize the application to send an email on behalf of the user.
 For other Google API or scopes it's the same procedure.
 
+If you want to understand a few words about what we are doing, I advice you to read this link about [OAuth 2.0][oauth]. 
+
 ### Google Cloud Platform (GCP)
 First login you on the [Google Cloud Platform Console][df1] with you Google account.
 
@@ -115,10 +117,24 @@ Content-type: application/json; charset=utf-8
 In this section, we will use [Postman][postman] to first retrieve an Access Token from the Refresh Token and second use the Access Token in order to send an email thanks to the Gmail API.
 
 
+### Retreive on Access Token with Postman
+You will found any documentation about how to using Refresh Token 
 
+```
+POST /oauth2/v4/token HTTP/1.1
+Host: www.googleapis.com
+Content-Type: application/json
+
+{
+"grant_type":"refresh_token",
+"refresh_token":"1//04AQ61pvoFSOBCgYIARAAGAQSNwF-L9Ir8jMd6pSAXnE0s2x7Hu4wVElgo_hB_s7W_nO61zEiDuZGtSQuADJamaZOO4robDvjsIo",
+"client_id":"889667048706-ifka3cves5utl4k1f60a8k76l7r7gq3s.apps.googleusercontent.com",
+"client_secret":"lryqPIM6pZJyY6a9NF-g0PD1"
+}
+```
  
- 
- 
+
+ [oauth]: <https://developers.google.com/identity/protocols/oauth2>
  [df1]: <https://console.cloud.google.com/>
  [scopes]: <https://developers.google.com/gmail/api/auth/scopes>
  [playground]: <https://developers.google.com/oauthplayground>
