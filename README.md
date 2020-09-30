@@ -122,4 +122,4 @@ In this section, we will use [Postman][postman] to first retrieve an Access Toke
  [df1]: <https://console.cloud.google.com/>
  [scopes]: <https://developers.google.com/gmail/api/auth/scopes>
  [playground]: <https://developers.google.com/oauthplayground>
- [postman] <https://www.postman.com/>
+ [postman]: <https://www.postman.com>
