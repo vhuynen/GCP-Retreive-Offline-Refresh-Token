@@ -118,24 +118,36 @@ In this section, we will use [Postman][postman] to first retrieve an Access Toke
 
 
 ### Retreive on Access Token with Postman
-You will found any documentation about how to using Refresh Token 
+For more details about how to using [Refreshing an access token (offline access)][offline]
 
+The request's format to retrieve the Access Token should be like that :
 ```
-POST /oauth2/v4/token HTTP/1.1
-Host: www.googleapis.com
-Content-Type: application/json
+POST /token HTTP/1.1
+Host: oauth2.googleapis.com
+Content-Type: application/x-www-form-urlencoded
 
-{
-"grant_type":"refresh_token",
-"refresh_token":"1//04AQ61pvoFSOBCgYIARAAGAQSNwF-L9Ir8jMd6pSAXnE0s2x7Hu4wVElgo_hB_s7W_nO61zEiDuZGtSQuADJamaZOO4robDvjsIo",
-"client_id":"889667048706-ifka3cves5utl4k1f60a8k76l7r7gq3s.apps.googleusercontent.com",
-"client_secret":"lryqPIM6pZJyY6a9NF-g0PD1"
+client_id=889667048706-ifka3cves5utl4k1f60a8k76l7r7gq3s.apps.googleusercontent.com&client_secret=lryqPIM6pZJyY6a9NF-g0PD1&refresh_token=1//04AQ61pvoFSOBCgYIARAAGAQSNwF-L9Ir8jMd6pSAXnE0s2x7Hu4wVElgo_hB_s7W_nO61zEiDuZGtSQuADJamaZOO4robDvjsIo&grant_type=refresh_token
+```
+the token server returns a JSON object that contains a new access token for the scope https://www.googleapis.com/auth/gmail.send
+ ```
+ {
+    "access_token": "ya29.a0AfH6SMBkHYSGMpv4rfN9ICB9mIpvnXqd68r3dkMCTIrhvuUVupnLgVoVzakd_jGiIMjRsVKEoyzEuBlejX3igGmBEVJcTGXI3kbBM55usXmWEJvDqujlI_ri30YwIkhXz_IMBsENK7aVTL4sjzHj-mYO4PDI12KLsXXi",
+    "expires_in": 3599,
+    "scope": "https://www.googleapis.com/auth/gmail.send",
+    "token_type": "Bearer"
 }
-```
- 
+ ```
+### Send on email with Gmail API
+
+For more details about the reference of REST **send** Gmail API : [users.messages.send][gmailsendapi]  
+
+
+
 
  [oauth]: <https://developers.google.com/identity/protocols/oauth2>
  [df1]: <https://console.cloud.google.com/>
  [scopes]: <https://developers.google.com/gmail/api/auth/scopes>
  [playground]: <https://developers.google.com/oauthplayground>
  [postman]: <https://www.postman.com>
+ [offline]: <https://developers.google.com/identity/protocols/oauth2/web-server#offline>
+ [gmailsendapi]: <https://developers.google.com/gmail/api/reference/rest/v1/users.messages/send>
