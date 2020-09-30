@@ -141,8 +141,8 @@ the token server returns a JSON object that contains a new access token for the 
 
 For more details about the REST **send** Gmail API : [users.messages.send][gmailsendapi]  
 
-> https://www.googleapis.com/upload/gmail/v1/users/:userId/messages/send?uploadType=media
-> https://www.googleapis.com/upload/gmail/v1/users/**vincent.huynen@gmail.com**/messages/send?uploadType=media
+> URI : https://www.googleapis.com/upload/gmail/v1/users/:userId/messages/send?uploadType=media
+> :userId is the user's email address.
 
 Body request :
 ```
@@ -174,6 +174,11 @@ Now, check your Gmail Inbox, you have got mail !
 > You can send until 100 mails for free per day with this API.
 > It's usually enough for yours personal projects.
 
+<p align="center">
+<img src="https://github.com/vhuynen/GCP-Retreive-Offline-Refresh-Token/blob/master/screenshot/Gmail%20test.JPG" width="50%">
+</p>
+
+I hope that this tutorial help you to demystified OAuth 2.0 as well as the using Refresh Token in your future IoT project.
 
  [oauth]: <https://developers.google.com/identity/protocols/oauth2>
  [df1]: <https://console.cloud.google.com/>
