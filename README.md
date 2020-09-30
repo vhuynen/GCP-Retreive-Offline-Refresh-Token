@@ -3,7 +3,7 @@ How to retrieve on offline Refresh Token for your application ?
 In this article we authorize the application to send an email on behalf of the user.
 For other Google API or scopes it's the same procedure.
 
-If you want to understand a few words about what we are doing, I advice you to read this link about [OAuth 2.0][oauth]. 
+If you want to understand a few words about what we are doing below, I advice you to read this link about how to access Google APIs through [OAuth 2.0][oauth].
 
 ### Google Cloud Platform (GCP)
 First login you on the [Google Cloud Platform Console][df1] with you Google account.
