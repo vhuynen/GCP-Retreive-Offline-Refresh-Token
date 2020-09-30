@@ -9,7 +9,7 @@ If you want to understand a few words about what we are doing below, I advice yo
 First login you on the [Google Cloud Platform Console][df1] with you Google account.
 
 ### Create a New Project
-Create a project for your application as it :
+Create a project for your application as below :
 <p align="center">
   <img src="https://github.com/vhuynen/GCP-Retreive-Offline-Refresh-Token/blob/master/screenshot/Create%20Project.JPG" width="50%">
 </p>
