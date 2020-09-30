@@ -139,10 +139,38 @@ the token server returns a JSON object that contains a new access token for the 
  ```
 ### Send on email with Gmail API
 
-For more details about the reference of REST **send** Gmail API : [users.messages.send][gmailsendapi]  
+For more details about the REST **send** Gmail API : [users.messages.send][gmailsendapi]  
 
+> https://www.googleapis.com/upload/gmail/v1/users/:userId/messages/send?uploadType=media
+> https://www.googleapis.com/upload/gmail/v1/users/vincent.huynen@gmail.com/messages/send?uploadType=media
 
+Body request :
+```
+POST /upload/gmail/v1/users/vincent.huynen@gmail.com/messages/send?uploadType=media HTTP/1.1
+Host: www.googleapis.com
+Content-Type: message/rfc822
+Authorization: Bearer ya29.a0AfH6SMBkHYSGMpv4rfN9ICB9mIpvnXqd68r3dkMCTIrhvuUVupnLgVoVzakd_jGiIMjRsVKEoyzEuBlejX3igGmBEVJcTGXI3kbBM55usXmWEJvDqujlI_ri30YwIkhXz_IMBsENK7aVTL4sjzHj-mYO4PDI12KLsXXi
 
+from:vincent.huynen@gmail.com
+to:vincent.huynen@gmail.com
+to:vincent.huynen@covea.fr
+subject:Have a Nice Day !
+
+My body content
+```
+Body success response HTTP 1.0 200 OK:
+```
+{
+    "id": "174de384530491b0",
+    "threadId": "174de384530491b0",
+    "labelIds": [
+        "UNREAD",
+        "SENT",
+        "INBOX"
+    ]
+}
+
+```
 
  [oauth]: <https://developers.google.com/identity/protocols/oauth2>
  [df1]: <https://console.cloud.google.com/>
