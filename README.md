@@ -85,7 +85,7 @@ Now, we are going to [OAuth Playground][playground] of Google to retrieve a Refr
 - The IdP Google redirect the user on the consent screen you are defined on GCP
 - The user accept to delegate the application to use his credentials to send on email on behalf of him
 <p align="center">
-<img src="https://github.com/vhuynen/GCP-Retreive-Offline-Refresh-Token/blob/master/screenshot/Consent%20Screen.JPG" width="50%">
+<img src="https://github.com/vhuynen/GCP-Retreive-Offline-Refresh-Token/blob/master/screenshot/Consent%20Screen.JPG" width="25%">
 </p>
 
 - Step 2, press on the button `Exchange authorization code for tokens`
