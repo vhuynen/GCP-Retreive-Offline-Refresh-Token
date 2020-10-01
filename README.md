@@ -18,7 +18,7 @@ Create a project for your application as below :
 ### Enable Gmail RESTfull API for your application
 Go to menu : `APIs & Services` >> `Library` search Gmail and enable Gmail API
 <p align="center">
-  <img src="https://github.com/vhuynen/GCP-Retreive-Offline-Refresh-Token/blob/master/screenshot/Enable%20Gmail%20RestFull%20API.JPG" width="50%">
+  <img src="https://github.com/vhuynen/GCP-Retreive-Offline-Refresh-Token/blob/master/screenshots/Enable%20Gmail%20RestFull%20API.JPG" width="50%">
 </p>
 
 ### Create credentials to access your enabled APIs
