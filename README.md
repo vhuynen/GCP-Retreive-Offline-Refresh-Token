@@ -157,7 +157,7 @@ subject:Have a Nice Day !
 
 My body content
 ```
-Success response from Gmail API: **200 OK**
+Success response from Gmail API: **HTTP/1.1 200 OK**
 ```
 {
     "id": "174de384530491b0",
@@ -168,7 +168,6 @@ Success response from Gmail API: **200 OK**
         "INBOX"
     ]
 }
-
 ```
 You've got mail check your Gmail Inbox !
 > You can send at most 100 mails for free per day with this API.
