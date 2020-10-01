@@ -1,4 +1,4 @@
-# How to retrieve an Refresh Token via Google Cloud Platform ?
+# How to retrieve a Refresh Token via Google Cloud Platform ?
 How to retrieve on offline Refresh Token for your application ?
 In this article we authorize the application to send an email on behalf of the user.
 For other Google API or scopes it's the same procedure.
