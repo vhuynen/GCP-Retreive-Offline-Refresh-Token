@@ -119,7 +119,7 @@ In this section, [Postman][postman] will be used to first retrieve an Access Tok
 
 
 ### Retreive an Access Token with Postman
-Click on this link if you are looking for more details : [Refreshing an access token (offline access)][offline]
+Click on this link if you are looking for more details : [refreshing an access token (offline access)][offline]
 
 The request's format to retrieve the Access Token should look like that :
 ```
