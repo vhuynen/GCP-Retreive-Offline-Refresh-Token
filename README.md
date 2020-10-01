@@ -55,7 +55,7 @@ Then click on the button : `+ CREATE CREDENTIALS` and go to sub-menu `OAuth clie
 
 On the screen `Create OAuth client ID` fill the `Name` and fill the choose list `Application type` with the value `Web application`
 
-Click on button `+ ADD URI` and at the section `Authorized redirect URIs` add the value `https://developers.google.com/oauthplayground`.
+At the section `Authorized redirect URIs` click on `+ ADD URI` button and add the value `https://developers.google.com/oauthplayground`.
 Indeed, we will use the OAuth Playground of Google to retrieve our famous Refresh Token that's the reason why we authorize the consent screen to redirect through Playground.
 
 Finally, `SAVE` the configuration.
