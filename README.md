@@ -1,4 +1,4 @@
-# Google Cloud Platform - How to retrieve Refresh-Token
+# Google Cloud Platform - How to retrieve an Refresh Token ?
 How to retrieve on offline Refresh Token for your application ?
 In this article we authorize the application to send an email on behalf of the user.
 For other Google API or scopes it's the same procedure.
@@ -6,7 +6,8 @@ For other Google API or scopes it's the same procedure.
 If you want to understand a few words about what we are doing below, I advice you to read this link about how to access Google APIs through [OAuth 2.0][oauth].
 
 ### Google Cloud Platform (GCP)
-First login you on the [Google Cloud Platform Console][df1] with you Google account.
+
+First log-in on the [Google Cloud Platform Console][df1] through you Google account.
 
 ### Create a New Project
 Create a project for your application as below :
@@ -23,7 +24,7 @@ Go to menu : `APIs & Services` >> `Library` search Gmail and enable Gmail API
 ### Create credentials to access your enabled APIs
 Go to menu : `APIs & Services` >> `Credentials`
 
-Then click on the button : `+ CREATE CREDENTIALS` and go to sub-menu `OAuth client ID` 
+Then click on the button : `+ CREATE CREDENTIALS` then go to sub-menu `OAuth client ID` 
 
 Click on `CONFIGURE CONSENT SCREEN` button
 
@@ -46,16 +47,16 @@ Choose radio button `External` and then click `CREATE` button
 - Step 3 `Optional info` click on the button `SAVE ANS CONTINUE`
 - Step 4 `Summary` click on the button `BACK TO DASHBOARD`
 
-At this step, you have activated Gmail API on your Google Cloud Platform, created an application and defined a **consent screen** for that clients authorize your application to use their credentials on behalf of themselves.
+From here, you have activated Gmail API on your Google Cloud Platform, created an application and defined a **consent screen** so that the users authorize your application to use their credentials on behalf of themselves.
 
-Now that your consent screen has been configured for your application, you can resume you settings by going to menu : `APIs & Services` >> `Credentials`
+Now that your consent screen has been configured for your application, you can resume your settings by clicking on "menu" : `APIs & Services` >> `Credentials`
 
 Then click on the button : `+ CREATE CREDENTIALS` and go to sub-menu `OAuth client ID`
 
 On the screen `Create OAuth client ID` fill the `Name` and fill the choose list `Application type` with the value `Web application`
 
-Click on button `+ ADD URI` and at the section `Authorized redirect URIs` and add the value `https://developers.google.com/oauthplayground`
-Indeed, we will use the OAuth Playground of Google to retrieve our famous Refresh Token it's the reason we authorize the consent screen to redirect through Playground.
+Click on button `+ ADD URI` and at the section `Authorized redirect URIs` add the value `https://developers.google.com/oauthplayground`.
+Indeed, we will use the OAuth Playground of Google to retrieve our famous Refresh Token that's the reason why we authorize the consent screen to redirect through Playground.
 
 Finally, `SAVE` the configuration.
 
@@ -67,21 +68,21 @@ Keep this warm, you will need this on the next section.
 <img src="https://github.com/vhuynen/GCP-Retreive-Offline-Refresh-Token/blob/master/screenshot/OAuth%20Client%20ID%20Client%20Secret.JPG" width="50%">
 </p>
 
-Right now, we have finished to set your application on GCP. Let's go to retrieve Access Token from Refresh Token...
+Now that you are done setting your application on GCP, let's go to retrieve Access Token from Refresh Token...
 
 ### Retrieve a Refresh Token for offline call API
-Now, we are going to [OAuth Playground][playground] of Google to retrieve a Refresh Token.
+Now, we are going to [OAuth Playground][playground] from Google to retrieve a Refresh Token.
 - Step 1 : Select & authorize APIs
   - Select the scope : https://www.googleapis.com/auth/gmail.send
-- Click on the `OAuth 2.0 configuration` button on the right of the screen and fill both fields `OAuth Client ID` and `OAuth Client secret` with the Client ID and the Client Secret of your application defined on GCP.
+- Click on the `OAuth 2.0 configuration` button at the top right-hand corner of the screen and fill both fields `OAuth Client ID` and `OAuth Client secret` with the Client ID and the Client Secret of your application defined on GCP.
 
 <p align="center">
 <img src="https://github.com/vhuynen/GCP-Retreive-Offline-Refresh-Token/blob/master/screenshot/OAuth%20Playground.JPG" width="50%">
 </p>
 
-- Press on the `Authorize APIs` button of the Step 1
-- You are redirected on the login screen of Google
-- Choose the Google account you want to use for this application
+- Press the `Authorize APIs` button of the Step 1
+- You are going to be redirected to the login screen of Google
+- Select the Google account you want to use for this application
 - The IdP Google redirect the user on the consent screen you are defined on GCP
 - The user accept to delegate the application to use his credentials to send on email on behalf of him
 <p align="center">
