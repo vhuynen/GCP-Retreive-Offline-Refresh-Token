@@ -157,7 +157,7 @@ subject:Have a Nice Day !
 
 My body content
 ```
-Success response from Gmail API : 200 OK:
+Success response from Gmail API: **200 OK**
 ```
 {
     "id": "174de384530491b0",
