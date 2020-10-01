@@ -84,7 +84,7 @@ Now, we are going to [OAuth Playground][playground] from Google to retrieve a Re
 - You are going to be redirected to the login screen of Google
 - Select the Google account you want to use for this application
 - The Identity Provider Google redirects the user to the consent screen that you previously defined on GCP
-- You will have to accept to delegate at the application to use your credentials to send an email on behalf of yourself
+- You will have to accept to delegate the application to use your credentials to send an email on behalf of yourself
 <p align="center">
 <img src="https://github.com/vhuynen/GCP-Retreive-Offline-Refresh-Token/blob/master/screenshots/Consent%20Screen.JPG" width="35%">
 </p>
