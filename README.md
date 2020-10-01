@@ -12,7 +12,7 @@ First log-in on the [Google Cloud Platform Console][df1] through you Google acco
 ### Create a New Project
 Create a project for your application as below :
 <p align="center">
-  <img src="https://github.com/vhuynen/GCP-Retreive-Offline-Refresh-Token/blob/master/screenshot/Create%20Project.JPG" width="50%">
+  <img src="https://github.com/vhuynen/GCP-Retreive-Offline-Refresh-Token/blob/master/screenshots/Create%20Project.JPG" width="50%">
 </p>
 
 ### Enable Gmail RESTfull API for your application
@@ -41,7 +41,7 @@ Choose radio button `External` and then click `CREATE` button
   - Click on the `UPDATE` button
   - Finally, click on the button `SAVE ANS CONTINUE`
 <p align="center">
-<img src="https://github.com/vhuynen/GCP-Retreive-Offline-Refresh-Token/blob/master/screenshot/Scope%20Gmail%20Send.JPG" width="50%">
+<img src="https://github.com/vhuynen/GCP-Retreive-Offline-Refresh-Token/blob/master/screenshots/Scope%20Gmail%20Send.JPG" width="50%">
 </p>
 
 - Step 3 `Optional info` click on the button `SAVE ANS CONTINUE`
@@ -65,7 +65,7 @@ Finally, `SAVE` the configuration.
 On the `OAuth 2.0 Client IDs`, click on the download button in order to save your OAuth Client ID en OAuth Client Secret of your application.
 Keep this warm, you will need this on the next section.
 <p align="center">
-<img src="https://github.com/vhuynen/GCP-Retreive-Offline-Refresh-Token/blob/master/screenshot/OAuth%20Client%20ID%20Client%20Secret.JPG" width="50%">
+<img src="https://github.com/vhuynen/GCP-Retreive-Offline-Refresh-Token/blob/master/screenshots/OAuth%20Client%20ID%20Client%20Secret.JPG" width="50%">
 </p>
 
 Now that you are done setting your application on GCP, let's go to retrieve Access Token from Refresh Token...
@@ -77,7 +77,7 @@ Now, we are going to [OAuth Playground][playground] from Google to retrieve a Re
 - Click on the `OAuth 2.0 configuration` button at the top right-hand corner of the screen and fill both fields `OAuth Client ID` and `OAuth Client secret` with the Client ID and the Client Secret of your application defined on GCP.
 
 <p align="center">
-<img src="https://github.com/vhuynen/GCP-Retreive-Offline-Refresh-Token/blob/master/screenshot/OAuth%20Playground.JPG" width="50%">
+<img src="https://github.com/vhuynen/GCP-Retreive-Offline-Refresh-Token/blob/master/screenshots/OAuth%20Playground.JPG" width="50%">
 </p>
 
 - Press the `Authorize APIs` button of the Step 1
@@ -86,7 +86,7 @@ Now, we are going to [OAuth Playground][playground] from Google to retrieve a Re
 - The Identity Provider Google redirects the user to the consent screen that you previously defined on GCP
 - You will have to accept to delegate at the application to use your credentials to send an email on behalf of yourself
 <p align="center">
-<img src="https://github.com/vhuynen/GCP-Retreive-Offline-Refresh-Token/blob/master/screenshot/Consent%20Screen.JPG" width="35%">
+<img src="https://github.com/vhuynen/GCP-Retreive-Offline-Refresh-Token/blob/master/screenshots/Consent%20Screen.JPG" width="35%">
 </p>
 
 - Step 2, press the button `Exchange authorization code for tokens`
