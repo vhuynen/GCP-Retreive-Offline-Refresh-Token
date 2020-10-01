@@ -175,7 +175,7 @@ You've got mail check your Gmail Inbox !
 > It's usually enough for your personal projects.
 
 <p align="center">
-<img src="https://github.com/vhuynen/GCP-Retreive-Offline-Refresh-Token/blob/master/screenshot/Gmail%20test.JPG" width="75%">
+<img src="https://github.com/vhuynen/GCP-Retreive-Offline-Refresh-Token/blob/master/screenshots/Gmail%20test.JPG" width="75%">
 </p>
 
 I hope that this tutorial helped you to demystify OAuth 2.0 as well as the use of Refresh Token in your upcoming IoT project.
