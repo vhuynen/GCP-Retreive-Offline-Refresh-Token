@@ -92,7 +92,7 @@ Now, we are going to [OAuth Playground][playground] from Google to retrieve a Re
 - Step 2, press the button `Exchange authorization code for tokens`
 - Then, you will fetch an Access Token and the offline Refresh Token for your application
 
-> **_Warning_** : You must never disclose neither OAuth "Client Credentials" keys of your project nor your offline Refresh Token. I my case, the OAuth Client "**Web Client 1**" has been destroyed after use.
+> **_Warning_** : Never disclose neither OAuth "Client Credentials" keys of your project nor your offline Refresh Token. In my case, the OAuth Client "**Web Client 1**" has been destroyed after use.
 
 ```
 HTTP/1.1 200 OK
