@@ -5,9 +5,6 @@ For other Google API or scopes it's the same procedure.
 
 If you want to understand a few words about what we are doing below, I advice you to read this link about how to access Google APIs through [OAuth 2.0][oauth].
 
-[TOC]
-
-
 ### Google Cloud Platform (GCP)
 
 First log-in on the [Google Cloud Platform Console][df1] through you Google account.
